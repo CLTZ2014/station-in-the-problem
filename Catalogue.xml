@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catelogue><!-- 目录索引根节点 -->
+
+	<Lang language="Java"><!-- 语言节点 -->
+	
+		<package name="Java基础">
+			<package name="java多线程">
+				<index>
+					<topic>多线程中StringBuilder的线程安全问题举例</topic>
+					<description>
+						此例子列举了StringBuilder在多线程中是如何产生问题的，StringBuffer又是如何解决该问题的。
+					</description>
+					<keywords>StringBuilder,Stringbuffer</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+			</package>
+			<index>
+				<topic></topic>
+				<description></description>
+			</index>
+			<package name="java关键字">
+				
+			</package>
+		</package>
+		<package name="JavaWeb">
+			<package></package>
+			<index>
+				<topic></topic>
+				<description></description>
+			</index>
+		</package>
+		
+	</Lang>
+	
+</Catelogue>
