@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Question>
+	<summary>Java中StringBuffer如何实现多线程安全</summary>
+	<details>
+		Java中的StringBuffer是怎样实现线程安全，StringBuilder的又是如何会出线程安全问题的
+	</details>
+	<solution>
+		Lang/Java/Java基础 /Java多线程/多线程中StringBuilder的线程安全问题举例.zip
+	</solution>
+</Question>
+
+<Question>
+	<summary>...</summary>
+	<details>....</details>
+	<solution>.....</solution>
+</Question>
