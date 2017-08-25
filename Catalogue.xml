@@ -35,6 +35,16 @@
 					<keywords>final</keywords><!-- 关键字，便于搜索，可以没有 -->
 				</index>
 			</package>
+			<package name="java反射">
+				<index>
+					<topic>java反射直接注入问题验证</topic>
+					<description>
+						1.反射侵犯隐私直接注入，那么打在被赋值对象域上的watchpoint不会观察到值得变化
+ 						2.反射改变accessable仅仅是局限于一部分的代码，而不是改变类加载器中类的结构
+					</description>
+					<keywords>反射,reflect,侵犯隐私注入</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+			</package>
 		</package>
 		<package name="JavaWeb">
 			<package></package>

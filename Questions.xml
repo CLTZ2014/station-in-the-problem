@@ -52,4 +52,14 @@
 			Lang/Java/Java基础 /java指针指向对象问题.zip
 		</solution>
 	</Question>
+	<Question>
+		<summary>java反射直接注入问题</summary>
+		<details>
+			1.反射侵犯隐私直接注入，那么打在被赋值对象域上的watchpoint是否会观察到值得变化
+ 			2.反射改变accessable是不是仅仅是局限于一部分的代码，而不是改变类加载器中类的结构
+		</details>
+		<solution>
+			Lang/Java/Java基础 /Java反射/java反射侵犯隐私直接注入问题.zip
+		</solution>
+	</Question>
 </Questions>
