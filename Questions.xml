@@ -31,4 +31,13 @@
 			Lang/Java/Java基础 /Java多线程/多线程中同步代码资源持有问题.zip
 		</solution>
 	</Question>
+	<Question>
+		<summary>一个final修饰的集合为什么可以向集合里增加内容</summary>
+		<details>
+			private final List《Object》 可以向集合里存放数据
+		</details>
+		<solution>
+			Lang/Java/Java基础 /Java关键字/final关键字注意事项.zip
+		</solution>
+	</Question>
 </Questions>

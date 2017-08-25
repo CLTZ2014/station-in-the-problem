@@ -24,8 +24,16 @@
 				<topic></topic>
 				<description></description>
 			</index>
-			<package name="java关键字">
-				
+			<package name="java多线程">
+				<index>
+					<topic>java关键字final的应用举例</topic>
+					<description>
+						1.修饰了final的类不能被其他类继承
+ 						2.使用了fianl修饰的方式不能被子类覆写
+ 					  **3.final 修饰的变量不能被重新赋值，但是特别注意，若果final指向对象，那么对象可以改变，但是此变量不能再引用其他的对象
+					</description>
+					<keywords>final</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
 			</package>
 		</package>
 		<package name="JavaWeb">
@@ -35,7 +43,6 @@
 				<description></description>
 			</index>
 		</package>
-		
 	</Lang>
 	
 </Catelogue>
