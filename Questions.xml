@@ -40,4 +40,16 @@
 			Lang/Java/Java基础 /Java关键字/final关键字注意事项.zip
 		</solution>
 	</Question>
+	<Question>
+		<summary>对象引用变量指向改变问题</summary>
+		<details>
+			Object A = new Object();
+			Object B = A ;
+			A = new Object();
+			那么B是指向旧的Object还是新的Object()?
+		</details>
+		<solution>
+			Lang/Java/Java基础 /java指针指向对象问题.zip
+		</solution>
+	</Question>
 </Questions>
