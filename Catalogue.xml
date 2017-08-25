@@ -19,12 +19,19 @@
 					</description>
 					<keywords>同步,临界区,临界资源</keywords><!-- 关键字，便于搜索，可以没有 -->
 				</index>
+				<index>
+					<topic>(PrivateLock.java)同步策略-私有锁</topic>
+					<description>
+						封装private的私有锁使用public方法访问该锁，可以使其他客户新增的同步代码可以参与到此同步策略中。
+					</description>
+					<keywords>synchronized strategy,private lock</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
 			</package>
 			<index>
 				<topic></topic>
 				<description></description>
 			</index>
-			<package name="java多线程">
+			<package name="java关键字">
 				<index>
 					<topic>java关键字final的应用举例</topic>
 					<description>
