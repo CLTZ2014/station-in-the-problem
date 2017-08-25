@@ -12,6 +12,13 @@
 					</description>
 					<keywords>StringBuilder,Stringbuffer</keywords><!-- 关键字，便于搜索，可以没有 -->
 				</index>
+				<index>
+					<topic>多线程中同步代码资源持有问题</topic>
+					<description>
+						验证了一个对象被一个同步代码块持有的时候,其他没有在同步范围内的代码块也持有该对象，那么其他地方不会等待同步代码块中释放了资源才能继续操作该对象。
+					</description>
+					<keywords>同步,临界区,临界资源</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
 			</package>
 			<index>
 				<topic></topic>
