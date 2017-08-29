@@ -26,6 +26,13 @@
 					</description>
 					<keywords>synchronized strategy,private lock</keywords><!-- 关键字，便于搜索，可以没有 -->
 				</index>
+				<index>
+					<topic>对象锁锁的是对象的地址而非引用对象本身</topic>
+					<description>
+						对象锁锁的是对象的地址而非引用对象本身
+					</description>
+					<keywords>lock</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
 			</package>
 			<index>
 				<topic></topic>
