@@ -8,6 +8,20 @@
 		Lang/Java/Java基础 /Java多线程/多线程中StringBuilder的线程安全问题举例.zip
 	</solution>
 </Question>
+<Question>
+	<summary>同步对象锁的是对象的地址还是对象的引用</summary>
+	<details>
+		synchronized(object){
+			//...
+		}
+		1.同步对象以后object 是否还可以指向其他对象
+		2.同步对象是否锁的是对象地址而不是引用他的obejct
+	</details>
+	<solution>
+		Lang/Java/Java基础 /Java多线程/对象锁锁的是对象的地址而非引用对象本身.zip
+	</solution>
+</Question>
+
 
 <Question>
 	<summary>...</summary>
