@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catelogue><!-- 目录索引根节点 -->
+
+	<Lang language="Java"><!-- 语言节点 -->
+	
+		<package name="Java基础">
+			<package name="java多线程">
+				<index>
+					<topic>多线程中StringBuilder的线程安全问题举例</topic>
+					<description>
+						此例子列举了StringBuilder在多线程中是如何产生问题的，StringBuffer又是如何解决该问题的。
+					</description>
+					<keywords>StringBuilder,Stringbuffer</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+				<index>
+					<topic>多线程中同步代码资源持有问题</topic>
+					<description>
+						验证了一个对象被一个同步代码块持有的时候,其他没有在同步范围内的代码块也持有该对象，那么其他地方不会等待同步代码块中释放了资源才能继续操作该对象。
+					</description>
+					<keywords>同步,临界区,临界资源</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+				<index>
+					<topic>(PrivateLock.java)同步策略-私有锁</topic>
+					<description>
+						封装private的私有锁使用public方法访问该锁，可以使其他客户新增的同步代码可以参与到此同步策略中。
+					</description>
+					<keywords>synchronized strategy,private lock</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+				<index>
+					<topic>对象锁锁的是对象的地址而非引用对象本身</topic>
+					<description>
+						对象锁锁的是对象的地址而非引用对象本身
+					</description>
+					<keywords>lock</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+			</package>
+			<index>
+				<topic></topic>
+				<description></description>
+			</index>
+			<package name="java关键字">
+				<index>
+					<topic>java关键字final的应用举例</topic>
+					<description>
+						1.修饰了final的类不能被其他类继承
+ 						2.使用了fianl修饰的方式不能被子类覆写
+ 					  **3.final 修饰的变量不能被重新赋值，但是特别注意，若果final指向对象，那么对象可以改变，但是此变量不能再引用其他的对象
+ 					  **4.final能够做出如下保证：当你创建一个对象时，使用final关键字能够使得另一个线程不会访问到处于“部分创建”的对象，否则是会可能发生错误
+ 					  	当构造函数结束时，final类型的值是被保证其他线程访问该对象时，它们的值是可见的。
+ 					  	final可以确保一个对象可以安全的发布
+ 					  	5.在多线程中，状态对象的发布使用volatile，而可变对象的发布使用final
+					</description>
+					<keywords>final</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+			</package>
+			<package name="java反射">
+				<index>
+					<topic>java反射直接注入问题验证</topic>
+					<description>
+						1.反射侵犯隐私直接注入，那么打在被赋值对象域上的watchpoint不会观察到值得变化
+ 						2.反射改变accessable仅仅是局限于一部分的代码，而不是改变类加载器中类的结构
+					</description>
+					<keywords>反射,reflect,侵犯隐私注入</keywords><!-- 关键字，便于搜索，可以没有 -->
+				</index>
+			</package>
+		</package>
+		<package name="JavaWeb">
+			<package></package>
+			<index>
+				<topic></topic>
+				<description></description>
+			</index>
+		</package>
+	</Lang>
+	
+</Catelogue>
