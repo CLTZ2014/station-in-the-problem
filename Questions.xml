@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Questions>
 	<Question>
-		<summary>Java中StringBuffer如何实现多线程安全</summary>
+		<summary>Java自旋锁问题</summary>
 		<details>
-			Java中的StringBuffer是怎样实现线程安全，StringBuilder的又是如何会出线程安全问题的
+			示例代码中，为什么 while (sharedVariable == null) {Thread.sleep(100);} 中不加sleep，始终退不出循环
 		</details>
-	 	<solution>
-			Lang/Java/Java基础 /Java多线程/多线程中StringBuilder的线程安全问题举例.zip
-		</solution>
+	 	<!-- 存放问题产生的文件  -->
+		<position>Files/自旋锁问题/SpinLock.java</position>
 	</Question>
 	
-	
-	<Question>
-		<summary>Java多线程中共享变量读取错误的问题</summary>
-		<details>
-			在所给的文件中，运行出现以下问题：
-			问题1 ： 即使主线程设置flag=false;其他线程却一直获得已经失效的值true。
-			问题2 ：在不使用volatile同步时，使用打印后却不会再获得失效值，不使用打印就一直获得失效值
-		</details>
-		<!-- 存放问题产生的文件  -->
-		<position>Files/ThreadQuestion.java</position>
-	</Question>
 	
 
 </Questions>
