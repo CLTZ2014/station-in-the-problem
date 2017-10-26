@@ -75,4 +75,13 @@
 		Lang/Java/Java基础 /Java多线程/对象锁锁的是对象的地址而非引用对象本身.zip
 	</solution>
 	</Question>
+	<Question>
+		<summary>javascript数组对象指定数组长度后push元素输入arr[0]无法获取数据问题</summary>
+		<details>
+			在指定了javascript数组对象的长度后，push无法为数组长度以内的元素赋值问题
+		</details>
+	 	<solution>
+			Lang/javascript/javascript基础 /Create 定长数组push会在 数组.lengtg 位置 开始放入数据.html
+		</solution>
+	</Question>
 </Questions>
