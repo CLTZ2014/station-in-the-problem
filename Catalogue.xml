@@ -72,5 +72,16 @@
 			</index>
 		</package>
 	</Lang>
+	<Lang language="javascript">
+		<package name="javascript基础">
+			<index>
+				<topic>Create 定长数组push会在 数组.lengtg 位置 开始放入数据.html</topic>
+				<description>
+					数组对象的一个特殊例子
+				</description>
+				<keywords>Array,javaScript</keywords><!-- 关键字，便于搜索，可以没有 -->
+			</index>
+		</package>
+	</Lang>
 	
 </Catelogue>
